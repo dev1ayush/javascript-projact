@@ -1,5 +1,8 @@
 # 10 Projects in 10 Hours
 
+all projact is inspired from florin pop check out the original repo of florin pop
+https://github.com/florinpop17/10-projects-10-hours
+
 
 1. Countdown Timer
 

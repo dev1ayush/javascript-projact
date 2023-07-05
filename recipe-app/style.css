@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(216, 213, 213);
+    text-transform: capitalize;
+}
+.app_container{
+    max-width: 250px;
+    min-height: 432px;
+    width: 100%;
+    background-color: #FBF3FA;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.app_container input{
+    padding-left: 5px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar input{
+    width: 90%;
+}
+
+.navbar i{
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    cursor: pointer;
+}
+
+
+.fav_food{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.fav_food_title{
+    text-align: center;
+}
+
+.fav_food_container{
+    display: flex;
+    margin-top: 0.5rem;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.fav_food_list{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fav_food_list img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.fav_food_list p{
+    font-size: 10px;
+}
+
+.food_of_the_day{
+    width: 90%;
+    margin-top: 0.5rem;
+}
+
+.food_of_the_day h3{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.food_of_the_day img{
+    width: 100%;
+    height: 196px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+}
+
+.fa-heart{
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 100%;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(235, 231, 231); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(235, 231, 231); 
+    border-radius: 20%
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(219, 212, 212); 
+  }
+
+  .search_container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgb(216, 208, 208);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    padding: 1rem;
+    overflow-y: scroll;
+    display: none;
+  }
+
+  .search_container div{
+    width: 80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 1rem;
+    margin: 1rem auto 0 auto;
+  }
+
+  .search_container img{
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+}
+
+.search_container p{
+    text-align: center;
+}
+
+.search_container i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
